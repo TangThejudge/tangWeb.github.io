@@ -1,0 +1,41 @@
+html{
+    font-size: 10px;
+    font-family: 'Open sans',sans-serif;
+    background-color: #00539f;
+}
+
+body{
+    width: 600px;                    /*—— 强制页面永远保持 600 像素宽。*/
+    margin: 0 auto;                 /*为 margin 或 padding 等属性设置两个值时，第一个值代表元素的上方和下方（在这个例子中设置为 0），而第二个值代表左边和右边（在这里，auto 是一个特殊的值，意思是水平方向上左右对称）。你也可以使用一个，三个或四个值*/
+    background-color: #ff9500;    /*指定元素的背景颜色。我们给 body 用了一种略微偏红的橘色以与深蓝色的 <html> 元素形成反差，你也可以尝试其它颜色。*/
+    padding: 0 20px 20px 20px;      /*我们给内边距设置了四个值来让内容四周产生一点空间。这一次我们不设置上方的内边距，设置右边，下方，左边的内边距为20像素。值以上、右、下、左的顺序排列。*/
+    border: 5px solid black;      /*直接为 body 设置 5 像素的黑色实线边框。*/
+}
+
+h1{
+    font-size: 60px;
+    text-align: center;
+    margin: 0;
+    padding: 20px 0;
+    color: #00539f;
+    text-shadow: 3px 3px 1px black;
+}
+
+p,li{
+    font-size: 16px;
+    line-height: 2;
+    letter-spacing: 1px;
+}
+
+img{
+    display: block;     /*给予其块级行为*/
+    margin: 0 auto;
+}
+
+/*
+p{
+    color:red;
+    width:500px;
+    border: 1px solid black;
+}
+*/
